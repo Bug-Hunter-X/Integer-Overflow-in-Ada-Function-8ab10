@@ -1,0 +1,2 @@
+# Ada Integer Overflow Bug
+This repository demonstrates a potential integer overflow bug in an Ada program. The `Add_Numbers` function adds two integers.  If the sum exceeds the maximum representable integer value, an overflow occurs resulting in an unexpected result. Ada doesn't automatically handle this condition, thus careful consideration of potential inputs is required. The solution demonstrates how to handle potential overflow using exception handling or other appropriate techniques.
